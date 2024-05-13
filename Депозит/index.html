@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Депозит</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/main.js" defer></script>
+</head>
+<body>
+    <body>
+        <div class="container">
+            <h2>Калькулятор депозиту</h2>
+            <div class="input-group">
+                <label for="depositAmount">Сума депозиту:</label>
+                <input type="text" id="depositAmount" placeholder="Ведіть суму в $" />
+            </div>
+            <div class="input-group">
+                <label for="years">Кількість років:</label>
+                <input type="number" id="years" min="1" placeholder="Введіть кількість років" />
+            </div>
+            <div class="input-group">
+                <label for="annualInterest">Відсоток річних:</label>
+                <input type="text" id="annualInterest" placeholder="Введіть відсоток" />
+            </div>
+            <button onclick="calculateFinalAmount()">Розрахувати</button>
+            <div id="result"></div>
+        </div>
+    </body>
+</body>
+</html>

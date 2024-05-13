@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Коментарі</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/main.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Коментарі</h1>
+
+        <div class="comments">
+            <div class="comment">
+                <p class="username">@user-pq9ie4xq4k</p>
+                <p class="date">2 дні тому</p>
+                <p class="content">я ніколи не зрозумію людей, які не можуть від цього відмовитись</p>
+            </div>
+
+            <div class="comment">
+                <p class="username">@_SOMEONE_2</p>
+                <p class="date">2 дні тому</p>
+                <p class="content">Хотів натиснути на вподабайку, але згадав, що вже натиснув)</p>
+            </div>
+        </div>
+
+        <form class="new-comment">
+            <label for="name">Ваше ім'я:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="comment">Ваш коментар:</label>
+            <textarea id="comment" name="comment" required></textarea>
+
+            <button type="submit">Додати коментар</button>
+        </form>
+
+        <div class="comment-count">
+            <p>Всього коментарів: 2</p>
+        </div>
+    </div>
+</body>
+</html>
